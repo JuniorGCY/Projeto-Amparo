@@ -1,0 +1,33 @@
+{
+  "cli": {
+    "version": ">= 16.20.4",
+    "appVersionSource": "remote"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "android": {
+        "image": "ubuntu-22.04-jdk-17-ndk-r26b"
+      }
+    },
+    "preview": {
+      "developmentClient": false,
+      "distribution": "internal",
+      "android": {
+        "image": "ubuntu-22.04-jdk-17-ndk-r26b"
+      }
+    },
+    "production": {
+      "autoIncrement": true,
+      "developmentClient": false,
+      "distribution": "internal",
+      "android": {
+        "image": "ubuntu-22.04-jdk-17-ndk-r26b"
+      }
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}

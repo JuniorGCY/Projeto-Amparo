@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "ProjetoAmparo",
+    "slug": "ProjetoAmparo",
+    "version": "0.1.0",
+    "orientation": "default",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": false,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.yashimayu.ProjetoAmparo"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "10401d74-f01c-43e0-89d4-084a13793d8a"
+      }
+    },
+    "plugins": [
+      "expo-sqlite",
+      "expo-asset",
+      "expo-build-properties"
+    ]
+  }
+}
