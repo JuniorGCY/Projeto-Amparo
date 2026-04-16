@@ -2,11 +2,11 @@
 O **Projeto Amparo** é um aplicativo desenvolvido em **React Native (Expo + EAS Build)** com o propósito de **ajudar mulheres que sofreram violência**.  
 O app oferece informações, recursos de emergência e ferramentas práticas para buscar ajuda de forma rápida, segura e humanizada.
 
-> ⚠️ *Em desenvolvimento – aos poucos ganhando forma.*
+> ⚠️ *Projeto finalizado, objetivo concluido*
 
-## 🎯 Objetivo
+## Objetivo
 
-Criar um espaço seguro e acessível para que mulheres possam:
+Criar um aplicativo, um protótipo, para validar uma ideia, um espaço seguro e acessível para que mulheres possam:
 - Entender seus **direitos**
 - Saber **como e onde denunciar**
 - Encontrar **delegacias próximas**
@@ -14,15 +14,13 @@ Criar um espaço seguro e acessível para que mulheres possam:
 - Criar **um plano de fuga**
 - Gerar **relatórios em PDF** com informações relevantes
 
-## 🚀 Funcionalidades (todas em progresso)
+##  Funcionalidades
 
-- 📚 **Informações e direitos**: orientações sobre leis, tipos de violência e canais de denúncia  (finalizada)
-- 🧭 **Mapa de delegacias próximas** usando geolocalização  
-- 📞 **Contatos de emergência** com envio automático de **mensagem e localização**  
-- 🎙️ **Gravação de áudio de emergência**  (Finalizada, implementar upload para storage do Firebase)
-- 📝 **Criação de plano de fuga personalizado e geração de relatório em PDF** (Finalizada)
-- 🤖 **ChatIA para tirar dúvidas** (Finalizada, em testes)
-- 🔐 **Interface discreta** e com foco em **segurança e privacidade**
+-  **Informações e direitos**: orientações sobre leis, tipos de violência e canais de denúncia
+-  **Contatos de emergência** com envio automático de **mensagem**  
+-  **Gravação de áudio de emergência** 
+-  **Criação de plano de fuga personalizado e geração de relatório em PDF**
+-  **ChatIA para tirar dúvidas**
 
 ## 🧩 Tecnologias usadas
 
@@ -33,7 +31,6 @@ Criar um espaço seguro e acessível para que mulheres possam:
 
 Esta versão foi criada com **EAS Build (Dev Client)** — não depende do Expo Go.  
 Você pode instalar o APK no Release do repositorio:
-
 
 > Compatível com Android **7.0 (Nougat)** ou superior. 
 > Versão: *Preview – em desenvolvimento.*
